@@ -3,7 +3,7 @@ masculino = []
 feminino = []
 
 # Receber os dados // Req. 01
-for i in range(4):
+for i in range(15):
     while True:
         genero = str(input("Qual seu Gênero? ")).lower().strip()
 
@@ -26,3 +26,4 @@ print("A maior altura do Grupo Feminino é ", max(feminino))
 print("A menor altura do Grupo Feminino é ", min(feminino))
 # Numero de alturas no Grupo Feminino // Req. 04
 print(f"O numero de pessoas cadastradas no Grupo Feminino é {len(feminino)}")
+
